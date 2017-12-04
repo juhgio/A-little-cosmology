@@ -43,8 +43,7 @@ t=np.log10(t)
 a=np.log10(a)
 # Plotting the graph
 plt.plot(t,a, color='blue', linewidth=1.5)
-plt.title('Evolution of the scale-factor(a) as a function of time(H0t) \n
-           Benchmark model')
+plt.title('Evolution of the scale-factor(a) as a function of time(H0t) Benchmark model')
 plt.axis([-10,1,-6,3])
 plt.xlabel('H0t')
 plt.ylabel('a')
